@@ -7,12 +7,26 @@
   size(500, 500);
 //    Try putting different numbers in the parentheses.
 //    See if you can figure out which number is the width, and which is the height
-
-
+fill(#7ECFFF);
+rect(0, 0, 500, 400);
 // 3. Now add an ellipse command to draw a circle. An ellipse is like an oval.
 fill(#40F252);
 //    The ellipse command looks like this:      
  ellipse(250, 240, 70, 50);
+ fill(#FFA2EB);
+ ellipse(195, 190, 50, 50);
+ fill(#FF1F88);
+ ellipse(180, 150, 50, 50);
+ fill(#FA5DAC);
+ ellipse(210, 120, 50, 50);
+ fill(#FF43E0);
+ ellipse(250, 120, 50, 50);
+ fill(#FF5FD2);
+ ellipse(280, 145, 50, 50);
+ fill(#FF5DD9);
+ ellipse(280, 182, 50, 50);
+ fill(#FFC9F2);
+ ellipse(260, 198, 50, 50);
  fill(#F5EE14);
   ellipse(20, 20, 100, 100);
   ellipse(230, 160, 70, 70);
@@ -24,9 +38,9 @@ fill(#40F252);
 // 4. Now add a rect command to draw a rectangle.
 fill(#4CFC5F);
 //    The rect command looks like this:       
-rect(210, 190, 30, 100);
+rect(215, 190, 30, 110);
 fill(#078E27);
-rect(5, 300, 500, 100);
+rect(0, 300, 500, 500);
 //    Like the ellipse, the fist 2 numbers specify where to draw it, the other two are its size.
 //    The main difference is the x and y co-ordinates are the top left corner of the shape.
 //    If the width is the same as the height, it draws a square.
