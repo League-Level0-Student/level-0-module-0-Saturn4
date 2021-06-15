@@ -18,7 +18,7 @@ public static void main(String[] args) {
 		// 3. Set your variable equal to a positive number less than 4 using     ran.nextInt(4); 
 	
 		// 3. Print your variable to the console
-		System.out.printIn(num);
+		System.out.println(num);
 		// 4. Get the user to enter something that they think is awesome
 	String input = JOptionPane.showInputDialog("What's Awesome?");
 		// 5. If your variable is  0
